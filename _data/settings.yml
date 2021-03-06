@@ -27,7 +27,7 @@ post_settings:
   grid_spacing: 10
 
 contact_settings:
-  email_address: 'hello@slmarchitect.com'
+  email_address: 'laura@slmarchitect.com'
   form_action: 'https://formspree.io/f/xxxx'
   confirmation_url: '/thanks'
   email_subject: 'Contact form submission'
