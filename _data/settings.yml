@@ -4,7 +4,7 @@ basic_settings:
 
 header_settings:
   logo_image: images/slm-logo.png
-  logo_width: 150
+  logo_width: 110
 
 hero_settings:
   background_image: /images/hero.png
@@ -20,7 +20,7 @@ menu_settings:
 
 footer_settings:
   logo_image: images/slm-logo.png
-  logo_width: 150
+  logo_width: 110
   tagline: Made with ❤️
 
 post_settings:
