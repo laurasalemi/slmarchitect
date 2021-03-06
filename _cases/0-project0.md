@@ -1,4 +1,0 @@
----
-sentence: ''
-image: '/hero.png'
----

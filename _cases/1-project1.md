@@ -1,5 +1,0 @@
----
-sentence: ''
-image: 'hero.png'
----
-
