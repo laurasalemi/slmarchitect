@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<div class="page-post">
+
+	{% if page.background_image %}
+	<div class="hero__background" draggable="false" style="background-image: url({{ page.background_image | relative_url }})">
+	</div>
+	{% endif %}
+
+	<header class="post__header header--single">
+		
+		<div class="wrap">
+			<h1 class="post__title">{{ page.title }}</h1>
+			<h2 class="post__subtitle subtitle--light">{{ page.subtitle }}</h2>
+		</div>
+
+	</header>
+
+	<section class="post-full">
+
+		<div class="wrap">
+			<article class="{{page.class}}">
+				{{ page.content }}
+			</article>
+
+		</div>
+
+	</section>
+
+</div>

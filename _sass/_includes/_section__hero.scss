@@ -1,0 +1,101 @@
+// - - - - - - - - - - - - - - - - - -
+
+// Section - Hero
+
+// - - - - - - - - - - - - - - - - - -
+
+
+.hero {
+	padding: 40px 0 40px;
+	min-height: 720px;
+	display: flex;
+	align-items: stretch;
+
+	.wrap {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.title {
+		margin-bottom: 24px;
+		max-width: 380px;
+
+	}
+	
+	.payoff {
+		background-color: rgba(255, 255, 255, 0.98);
+		padding-top: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 20px;
+		.cta {
+			padding-top: 10px;
+			display: flex;
+			justify-content: center;
+		}
+	}
+
+	.title .subtitle {
+		margin-bottom: 8px;
+	}
+
+	
+	@include mq(phonel){
+		.movement-analysis-diagram-mobile {
+			display: none; 
+		}
+	}
+
+	@include mq(tabletp) {
+		padding: 0px 0 40px;
+
+		.title {
+			margin-bottom: 0;
+			max-width: none;
+		}
+
+		.payoff {
+			max-width: 450px;
+		}
+	}
+}
+
+.accent__background {
+	display: none;
+
+	@include mq(phonel)
+	{
+		display: block;
+		background: linear-gradient(-30deg, $accent_color 50%, $background_color 50%);
+		min-height: 850px;
+		min-width: 100%;
+		z-index: -1;
+		position: absolute;
+		left: 0%;
+	}
+}
+
+.hero__background {
+	display: none; 
+	margin-top: 110px;
+
+	@include mq(phonel)
+	{
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 15%;
+		left: 20%;
+		background-position: center;
+		background-repeat: no-repeat;
+		max-height: 600px;
+		z-index: -1;
+		background-size: fit;
+	}
+
+	/*@include mq(tabletp) {
+		display: block;
+	}*/
+}

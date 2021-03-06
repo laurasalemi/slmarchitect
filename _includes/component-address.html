@@ -1,0 +1,8 @@
+{% if site.data.settings.contact_settings.street_address != '' %}
+	<h6><a href="#" class="contact-trigger js-contact">Contact</a></h6>
+	<p-small>{{ site.data.settings.contact_settings.street_address }}</p>
+	<p-small>{{ site.data.settings.contact_settings.postal_code }}, {{ site.data.settings.contact_settings.city }}</p>
+	<p-small>{{ site.data.settings.contact_settings.country }}</p>
+	<p-small>KvK: 68646224</p>
+	<p-small>VAT: NL857533861B01</p>
+{% endif %}

@@ -1,0 +1,69 @@
+// - - - - - - - - - - - - - - - - - -
+
+// Page - Blog
+
+// - - - - - - - - - - - - - - - - - -
+
+
+.header--single {
+	padding: 40px 0 48px;
+
+	.header__title {
+		margin-bottom: 16px;
+	}
+
+	.header__subtitle {
+		max-width: 556px;
+	}
+
+	@include mq(tabletp) {
+		padding: 56px 0 120px;
+	}
+}
+
+
+.usp {
+	border-top: 2px solid $accent_color;
+	padding-top: 0.5em;
+	padding-bottom: 2em;
+}
+
+.partner_logos {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+	justify-items: center;
+	align-items: center;
+
+	> img {
+		padding: 20px;
+		object-fit: contain;
+		filter: grayscale(75%);
+		opacity: .75;
+	}
+
+	> img:hover {
+		filter: none;
+		opacity: 1;
+	}
+}
+
+.team_pictures {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+
+	> div {
+		padding: 16px;
+		vertical-align: middle;
+		display: flex;
+		
+		img {
+			object-fit: contain;
+			margin: auto;	
+		}
+
+		.fa-linkedin-in {
+			float: right;
+			margin-top: 5px;
+		}
+	}
+}

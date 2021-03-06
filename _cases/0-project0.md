@@ -1,0 +1,4 @@
+---
+sentence: ''
+image: '/hero.png'
+---

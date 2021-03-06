@@ -1,0 +1,104 @@
+---
+layout: default
+title: Your partner for any design
+description: Your partner for any design. 
+
+---
+
+<div class="page-home">
+
+	<img width="80%" src="{{ '/images/header-1.png' | relative_url }}" style="margin-left: auto; margin-right: auto;">
+
+
+	<section class="listing" style="background-color: #fff;">
+		<div class="wrap">
+			{% for project in site.projects reversed %}
+
+			{% if project.accent_color %}{% capture accent_color %}{{ project.accent_color }}{% endcapture %}{% endif %}
+
+			<article class="project__preview">
+				<div class="project__images owl-carousel" style="--accent: {{ accent_color }}">
+					{% include {{ project.images }} %}
+				</div>
+			</article>
+
+			{% endfor %}
+			
+		</div>
+	</section>
+
+	<section class="technologies">
+		<div style="margin-bottom: 30px">
+			<div class="wrap">
+				<div class="grid_2">
+					<div>
+						<p>Laura is a skilled architect specialized in housing renovations.
+							Living and working in The Hague since 2015, she has been involved with various perspectives of the construction process, 
+							from the first sketches (SO, VO) through building permit(BA) to realization and construction drawings (W) and she is familiar with all main Dutch laws 
+							(Bouwbesluit, Woningwet, Bestemmingsplan, Beschermde stadsgezicht, Brandveiligheid enz.).			
+							However her portfolio’s includes project located all over the Europe and some overseas as well. among others
+							<ul>
+								<li>construction drawings for an industrial warehouse (USA)</li>
+								<li>sketch and concept design for a shopping mall (RU)</li>
+								<li>Apartments and villa’s renovations 
+								(all over EU, mostly in The Netherlands, Italy and France)</li>
+							</ul>
+						</p>
+						<p>  
+							Actively working towards more sustainable solutions, 
+							she’s constantly learning about new techniques or product that can help us reach those 
+							Zero energy buildings we have been talking about for at least 2 decades now. 
+							DfD and prefab are the way to go to reduce building footprint without compromising its estetics and design flexibility.
+							
+							She currently works as a freelancer to support 
+							private clients as well as, small and medium size, business in field related to architecture, technical drawings and 3D visualizations.
+							
+							I am able to work with a wide range of softwares: Revit, Archicad, Sketchup, v-Ray, Cine render, Lumion 3D, Adobe suite.. just to name it a couple.
+							
+							Colleagues know me as a highly motivated draftsman and a creative designer who always strives to find the right balance between customer's demands and contingents requirements.
+							
+							I hold an MSc in Building engineering and Architecture (4/S) from the University of Catania, Italy.
+							
+							Feeling like you could use some help? If so, do not hesitate to get in touch! Always happy to meet new colleagues and hear about their unique perspectives. 
+						</p>
+					</div>
+					<img src="{{ '/images/profile.png' | relative_url }}" >
+				</div>	
+			</div>
+		</div>
+		<div class="usp" style="margin-top: 30px">
+			<div class="wrap">
+				<div class="grid_2" style="margin-bottom: 30px; margin-top: 30px">
+					<img width="80%" src="{{ '/images/project-1.png' | relative_url }}" style="margin-right: auto; margin-left: auto;">
+					<div>
+						<h3>2D & 3D VISUALIZATIONS</h3>
+						<p>Want to have a look to the end result before hand want to show it to your client or 
+							the municipality or to submit your proposal to a competition ?
+							There’s a ton of possibilities out there
+						</p>
+						<div style="margin-top: 30px;">
+							<a href="#" class="button--fill --large contact-trigger js-contact">More info</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="wrap">
+				<div class="grid_2">
+					<div>
+						<h3>FULL-SERVICE</h3>
+						<p>Every project is NOT the same. Request a specific design from start 
+						to finish completely tailored on your needs and up to the scale of detail that you need.
+					</p>
+					</div>
+					<img width="80%" src="{{ '/images/project-2.png' | relative_url }}" style="margin-right: auto; margin-left: auto;">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="hero" style="text-align: center;">
+			<img src="{{ '/images/footer.png' | relative_url }}" >
+		</div>
+	</section>
+</div>

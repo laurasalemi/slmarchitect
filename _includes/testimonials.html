@@ -1,0 +1,9 @@
+{% for case in site.cases %}
+
+<div style="width: 100%; background-color: #eee;">
+    <div>
+        <img src="{{ '/images/' | relative_url}}{{ case.image }}" alt="" style="height: 450px; min-width: 100%; width: auto; object-fit: cover;"/>
+    </div>
+</div>
+
+{% endfor %}
