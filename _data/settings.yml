@@ -177,7 +177,7 @@ font_settings:
 
 advanced_settings:
   ajax_loading: true
-  analytics_code: "G-91L614JBQJ"
+  analytics_code: ''
   custom_styles: ""
   header_js: ""
   footer_js: ""
