@@ -39,8 +39,8 @@ contact_settings:
 
 social_settings:
   facebook_url: ''
-  twitter_url: 'https://twitter.com/xxxx'
-  instagram_url: ''
+  twitter_url: ''
+  instagram_url: 'https://www.instagram.com/laura_salemi_architect/'
   snapchat_url: ''
   youtube_url: ''
   google-plus_url: ''
@@ -63,7 +63,7 @@ social_settings:
   soundcloud_url: ''
   spotify_url: ''
   bandcamp_url: ''
-  linkedin_url: 'https://www.linkedin.com/xxxx'
+  linkedin_url: 'https://www.linkedin.com/in/laura-salemi-architect/'
 
 color_settings:
   background_color: '#ffffff'
