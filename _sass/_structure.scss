@@ -19,7 +19,7 @@
 
 .grid_2 {
 	display: grid;
-	grid-gap: 30px;
+	grid-column-gap: 30px;
   @include mq(tabletp) {
     grid-template-columns: repeat(2, 1fr);
   }
