@@ -1,5 +1,5 @@
 ---
-sentence: 'Type: office<br>Surface: 6500 sqm<br>Software: Lumion, Archicad'
+sentence: 'Type: Warehouse office<br>Surface: 3500 m<sup>2</sup> <br>Software: Archicad, Lumion'
 studio: 'Heiko Hulsker Architecten'
 studio_url: 'https://www.hulskerarchitecten.nl/'
 image: 'caroussel3b.jpg'
