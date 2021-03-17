@@ -1,9 +1,9 @@
 ---
-sentence: 'Type: Shopping mall & Hypermarket<br>Surface: 29000 m<sup>2</sup> <br>Software: Sketchup, Autocad, Adobe Suite'
-studio: 'C Concept Design'
-studio_url: 'https://www.ccdx.nl/'
-image: 'caroussel4.jpg'
-icon: 'carousel4_icon_a.png'
+sentence: 'Type: Primary school + Sportcenter <br>Surface: 29000 m<sup>2</sup> <br>Software: Revit, Adobe Suite'
+studio: 'bct architecten, ingenieurs & adviseurs'
+studio_url: 'https://www.bctarchitecten.nl/'
+image: 'caroussel6.jpg'
+icon: 'carousel6_icon.png'
 icon_size: '170'
 ---
 
