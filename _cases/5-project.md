@@ -1,5 +1,5 @@
 ---
-sentence: 'Type: Shopping mall & Hypermarket<br>Surface: 29000 m<sup>2</sup> <br>Software: Sketchup, Autocad, Adobe Suite'
+sentence: 'Type: Shopping mall & Hypermarket<br>Surface: 29.000 m<sup>2</sup> <br>Software: Sketchup, Autocad, Adobe Suite'
 studio: 'C Concept Design'
 studio_url: 'https://www.ccdx.nl/'
 image: 'caroussel4.jpg'
