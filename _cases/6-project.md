@@ -3,7 +3,7 @@ sentence: 'Type: Primary school + Sportcenter <br>Surface: 29000 m<sup>2</sup> <
 studio: 'bct architecten, ingenieurs & adviseurs'
 studio_url: 'https://www.bctarchitecten.nl/'
 image: 'caroussel6.jpg'
-icon: 'carousel6_icon.png'
+icon: 'Carousel6_icon.png'
 icon_size: '170'
 ---
 
