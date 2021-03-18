@@ -28,7 +28,7 @@ post_settings:
 
 contact_settings:
   email_address: 'laura@slmarchitect.com'
-  form_action: 'https://formspree.io/f/meqpbyjv'
+  form_action: 'https://formspree.io/f/xwkwgdyl'
   confirmation_url: '/'
   email_subject: 'Contact form submission'
   send_button_text: 'Get in touch'
