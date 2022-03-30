@@ -1,9 +1,6 @@
 ---
-sentence: 'Type: Warehouse office<br>Surface: 3.500 m<sup>2</sup> <br>Software: Archicad, Lumion'
-studio: 'Heiko Hulsker Architecten'
-studio_url: 'https://www.hulskerarchitecten.nl/'
-image: 'caroussel3b.jpg'
-icon: 'carousel3_icon_a.png'
-icon_size: '170'
+sentence: 'Type: Summerhouse <br> Project: Concept <br> Surface: 120 m<sup>2</sup> <br>'
+client: 'Sara'
+image: 'private 4-B.jpg'
 ---
 

@@ -7,15 +7,9 @@ description: Freelancer architect helps you bring your design to life.
 
 <div class="page-home">
 
-
-	<div class="wrap" style="text-align: center; margin-top: 30px; margin-bottom: 70px;">
-		<h4><span style="font-size: 0.75em;">“A well thought and accurate design can enhance the users’ experience, 
-		without them even realizing it.”</span></h4>
-	</div>
-
 	<section class="listing" style="background-color: #fff;">
 		<div class="wrap">
-			{% for project in site.projects reversed %}
+			{% for project in site.business_projects reversed %}
 
 			{% if project.accent_color %}{% capture accent_color %}{{ project.accent_color }}{% endcapture %}{% endif %}
 
@@ -54,7 +48,7 @@ description: Freelancer architect helps you bring your design to life.
 				<div class="grid_2" style="margin-bottom: 30px; margin-top: 30px">
 					<img width="80%" src="{{ '/images/Project1.jpg' | relative_url }}" style="margin-right: auto; margin-left: auto; border: 1px solid #000">
 					<div style="width:80%; margin-right: auto; margin-top: 30px;">
-						<h3>INTERIOR ADVIES PACKAGING</h3>
+						<h3>TECHNICAL DRAWING</h3>
 						<p style="font-size: 1.2em;">A good start is half the work! Carefully designed floorplans, sections and elevations, in the early stages, can often spare you a lot of time and money later on. When in doubts, just ask. 
 						</p>
 						<div style="margin-top: 30px;">
@@ -63,13 +57,13 @@ description: Freelancer architect helps you bring your design to life.
 					</div>
 				</div>
 			</div>
-			
 			<div class="wrap">
 				<div class="grid_2" style="margin-bottom: 30px; margin-top: 30px">
-					<video width="80%" src="{{ '/images/Project3.mp4' | relative_url }}" style="margin-right: auto; margin-left: auto; border: 0px solid #000" playsinline muted autoplay></video>
+					<img width="80%" src="{{ '/images/Project4.jpg' | relative_url }}" style="margin-right: auto; margin-left: auto;">
 					<div style="width:80%; margin-right: auto; margin-top: 30px;">
-						<h3>CUSTOM SERVICE</h3>
-						<p style="font-size: 1.2em;">Every project is NOT the same. Request a specific design from start to finish completely tailored on your needs and up to the scale of detail that you need.
+						<h3>2D & 3D VISUALIZATIONS</h3>
+						<p style="font-size: 1.2em;">Want to visualize the entire space before it's built?
+							From still images to 360° to video, there’s a ton of possibilities out there! Curious to know more?
 						</p>
 						<div style="margin-top: 30px;">
 							<a href="#" class="button--fill --large contact-trigger js-contact">More info</a>
@@ -77,6 +71,7 @@ description: Freelancer architect helps you bring your design to life.
 					</div>
 				</div>
 			</div>
+			
 		</div>
 		<div class="hero usp" style="text-align: center; padding-top: 50px;">
 			<img src="{{ '/images/KRD_view 2.jpg' | relative_url }}" style="object-fit:cover; margin-left: auto; margin-right: auto;">

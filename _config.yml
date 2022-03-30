@@ -13,7 +13,12 @@ collections:
   cases:
     output: false
     permalink: /cases/:name
+  business_cases:
+    output: false
+    permalink: /business_cases/:name
   projects:
+    output: true
+  business_projects:
     output: true
 
 defaults:

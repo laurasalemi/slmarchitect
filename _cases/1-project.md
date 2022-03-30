@@ -1,9 +1,6 @@
 ---
-sentence: 'Type: Social housing<br>Surface: 19.000 m<sup>2</sup> <br>Software: Archicad'
-studio: 'XML Architecture Research Urbanism'
-studio_url: 'http://www.x-m-l.org/'
-image: 'caroussel5.jpg'
-icon: 'carousel5_icon_a.png'
-icon_size: '170'
+sentence: 'Type: apartment <br>Project: Renovation <br>Surface: 90 m<sup>2</sup> <br>'
+client: 'Lisa'
+image: 'private 1.jpg'
 ---
 
