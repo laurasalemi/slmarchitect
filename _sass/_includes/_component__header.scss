@@ -183,7 +183,8 @@
     text-transform: none;
 
     &.active-link {
-      color: $accent-color;
+      background-color: $accent-color;
+      color: #000;
     }
   }
 

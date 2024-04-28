@@ -77,10 +77,11 @@
 
   &--fill {
     @extend .button--text;
-    color: white;
+    color: #000;
     background-color: $accent-color;
     padding: 13px 20px 14px;
-    border-radius: 40px;
+    //border: solid #000;
+    //border-radius: 40px;
 
     &.--large {
       font-size: 24px;
@@ -90,7 +91,7 @@
 
     &:hover {
       color: white;
-      background-color: darken($color: $accent-color, $amount: 5);
+      background-color: darken($color: $accent-color, $amount: 100);
     }
 
     &:active {
@@ -103,7 +104,7 @@
     color: $accent-color;
     background-color: white;
     padding: 13px 20px 14px;
-    border-radius: 40px;
+    //border-radius: 40px;
 
     &.--large {
       font-size: 24px;
