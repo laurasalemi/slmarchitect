@@ -16,13 +16,13 @@ description: Freelancer architect helps you bring your design to life.
 				<div class="project__images owl-carousel fancy" style="--accent: {{ accent_color }};">
 					{% for image in project.image_list %}
 					<div class="grid_3" wdith="100%" style="background-color: #fff;">
-						<div>
+						<div style="margin-bottom: 15px;">
 							<img src="{{ '/images/' | relative_url}}{{ image.left }}" alt="" style="width: auto; margin: auto; object-fit: scale-down;"/>
 						</div>
-						<div>
+						<div style="margin-bottom: 15px;">
 							<img src="{{ '/images/' | relative_url}}{{ image.center }}" alt="" style="width: auto; margin: auto;  object-fit: scale-down;"/>
 						</div>
-						<div>
+						<div style="margin-bottom: 15px;">
 							<img src="{{ '/images/' | relative_url}}{{ image.right }}" alt="" style="width: auto; margin: auto;  object-fit: scale-down;"/>
 						</div>
 					</div>
