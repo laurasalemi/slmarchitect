@@ -19,11 +19,28 @@
 
 .grid_2 {
 	display: grid;
-	grid-column-gap: 30px;
+	grid-column-gap: 0px;
   @include mq(tabletp) {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+.grid_3 {
+	display: grid;
+	grid-column-gap: 30px;
+  @include mq(tabletp) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/*.fancy {
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+}
+.fancy:hover {
+  -webkit-filter: none !important; 
+  filter: none !important;
+}*/
 
 .grid {
 	display: grid;

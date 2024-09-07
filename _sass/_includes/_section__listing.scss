@@ -83,11 +83,12 @@
 
   .owl-nav {
 
-    @include mq(tabletl) {
+    //@include mq(tabletl) 
+    //{
       display: block;
-      opacity: 0.5;
+    //  opacity: 0.5;
       @include transition(all 0.2s ease-in-out);
-    }
+    //}
 
     button {
       position: absolute;
@@ -105,7 +106,8 @@
         right: 0;
       }
 
-      @media only screen and (min-width: 1320px) {
+      //@media only screen and (min-width: 132\0px) 
+      //{
         width: calc((100vw - 1140px) / 2);
 
         &.owl-prev {
@@ -125,7 +127,7 @@
             margin-left: 10px;
           }
         }
-      }
+      //}
 
       svg {
         position: absolute;
@@ -134,8 +136,9 @@
         @include translate(-50%,-50%);
         width: 30px;
         height: 48px;
-        fill: black;
-        opacity: 0.5;
+        fill: #000;
+        background-color: #daf940;;
+        opacity: 1;
         @include transition(all 0.2s ease-in-out);
       }
 
