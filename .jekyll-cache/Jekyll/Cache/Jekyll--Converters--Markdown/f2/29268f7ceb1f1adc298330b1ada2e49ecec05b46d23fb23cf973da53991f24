@@ -1,4 +1,4 @@
-I"Ç<p>This page is a demo that shows everything you can do inside portfolio and blog posts.</p>
+I"©<p>This page is a demo that shows everything you can do inside portfolio and blog posts.</p>
 
 <p>Weâ€™ve included everything you need to create engaging posts about your work, and show off your case studies in a beautiful way.</p>
 
@@ -61,7 +61,7 @@
   </tbody>
 </table>
 
-<p>And footnotes<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup>, which link to explanations<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">2</a></sup> at the bottom of the page<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote">3</a></sup>.</p>
+<p>And footnotes<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>, which link to explanations<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup> at the bottom of the page<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>.</p>
 
 <p>You can throw in some horizontal rules too:</p>
 
@@ -82,12 +82,12 @@
 4
 5
 6
-</pre></td><td class="rouge-code"><pre><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>post-components/gallery.html<span class="err">
-</span><span class="w">	</span><span class="na">columns</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">2</span><span class="err">
-</span><span class="w">	</span><span class="na">full_width</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span><span class="err">
-</span><span class="w">	</span><span class="na">images</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"/images/demo.jpg,/images/demo.jpg,/images/demo.jpg,/images/demo.jpg,
-	"</span><span class="err">
-</span><span class="p">%}</span>
+</pre></td><td class="rouge-code"><pre><span class="cp">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>post-components/gallery.html<span class="w">
+	</span><span class="na">columns</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">2</span><span class="w">
+	</span><span class="na">full_width</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span><span class="w">
+	</span><span class="na">images</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"/images/demo.jpg,/images/demo.jpg,/images/demo.jpg,/images/demo.jpg,
+	"</span><span class="w">
+</span><span class="cp">%}</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p><em>See what we did there? Code and syntax highlighting is built-in too!</em></p>
